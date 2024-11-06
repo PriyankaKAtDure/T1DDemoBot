@@ -182,6 +182,15 @@ label{
     color: #636464;
 }
 
+.country-dropdown .select2-container--default .select2-selection--single {
+    height: 40px;
+    border-color: #ddd !important;
+}
+
+.country-dropdown .select2-container .select2-selection--single .select2-selection__rendered,
+.country-dropdown .select2-selection__arrow{
+    margin-top: 5px;
+}
 
 
 @media (min-width:1200px) {

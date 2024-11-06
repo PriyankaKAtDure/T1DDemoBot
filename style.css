@@ -1,0 +1,202 @@
+body,
+html {
+    overflow: hidden !important;
+    height: 100vh !important;
+    font-family: 'Aptos',
+sans-serif;
+/* overflow-y: auto; */
+padding-bottom: 10px;
+/* overflow-x: hidden; */
+}
+
+*::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 50px;
+}
+
+*::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.ml-10px{
+    margin-left: 10px;
+}
+
+.form-select:focus,
+.form-select{
+    box-shadow: none;
+    border-color: #ddd !important;
+    border-radius: 4px !important;
+    font-size: 14px;
+}
+
+/* .form-check-input:checked{
+    background-color: #001867 !important;
+    border-color: #001867 !important;
+} */
+
+.navbar-brand {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: 600;
+    /* color: #9c2c4c !important; */
+    font-size: 20px !important;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    max-width: 150px;
+    width: 100%;
+    border: 1px solid #001867;
+border-radius: 50%;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin-top: 1%;
+    padding-left: 15px;
+padding-right: 15px;
+}
+
+.form-check-input.consent-label{
+    width: 2em;
+    /* height: 2em; */
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #128c7e !important;
+    border: 1px solid #128c7e !important;
+    border-radius: 50px;
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    box-shadow: none !important;
+    color: #fff;
+}
+
+.text-field {
+    font-size: 20px !important;
+}
+
+select {
+    border-radius: 0;
+    /* Removes border-radius for the select element */
+}
+
+select option {
+    border-radius: 0;
+    /* Removes border-radius for each option element */
+}
+
+.chatBotDescription{
+    border: 1px solid #dddddd4f;
+/* border-radius: 4px; */
+padding: 10px;
+font-weight: 400;
+font-size: 15px !important;
+/* background-color: #f9fafb; */
+}
+
+
+.country-dropdown label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.country-dropdown .input-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.country-dropdown select {
+    flex: 0 0 80px !important;
+    /* Set width for the country dropdown */
+    padding: 10px !important;
+    font-size: 14px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 4px;
+    background-color: white !important;
+    color: #000;
+     height: 40px;
+}
+
+.country-dropdown input {
+    flex: 1;
+    /* Fill the remaining space */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.iti-flag {
+    width: 20px;
+    height: 15px;
+    margin-right: 8px;
+}
+
+.iti {
+    width: 100%;
+}
+
+input:focus-visible,
+select:focus-visible{
+    border-color: #ccc !important;
+    outline: none !important;
+}
+
+.country-dropdown option{
+    border-radius: 0% !important;
+    border-color: transparent;
+}
+
+.form-check-input {
+    margin-top: 0%;
+}
+
+label{
+    font-size: 13px;
+    color: #636464;
+}
+
+
+
+@media (min-width:1200px) {
+    .main-section {
+        margin-top: 5%;
+    }
+
+     body {
+     background: #fff;
+     height: 100vh !important;
+     width: 400px;
+     border-radius: 14px;
+     margin: 0 auto;
+     display: block;
+     border: 1px solid #ddd;
+border-radius: 0 !important;
+ }
+}

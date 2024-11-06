@@ -14,8 +14,8 @@ padding-bottom: 10px;
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
+     background-color: #dee2e6;
+    /* outline: 1px solid slategrey; */
     border-radius: 50px;
 }
 
@@ -200,3 +200,12 @@ label{
 border-radius: 0 !important;
  }
 }
+
+@media (min-width:360px) and (max-width:370px) {
+    body {
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        height: calc(100vh - 59px) !important;
+    }
+}
+

@@ -2,11 +2,10 @@ body,
 html {
     overflow: hidden !important;
     height: 100vh !important;
-    font-family: 'Aptos',
-sans-serif;
-/* overflow-y: auto; */
-padding-bottom: 10px;
-/* overflow-x: hidden; */
+    font-family: 'Aptos',sans-serif;
+    /* overflow-y: auto; */
+    padding-bottom: 10px;
+    /* overflow-x: hidden; */
 }
 
 *::-webkit-scrollbar {
@@ -190,6 +189,7 @@ label{
 .country-dropdown .select2-container .select2-selection--single .select2-selection__rendered,
 .country-dropdown .select2-selection__arrow{
     margin-top: 5px;
+    font-size: 14px;
 }
 
 

@@ -9,6 +9,16 @@ padding-bottom: 10px;
 /* overflow-x: hidden; */
 }
 
+html {
+    height: 100%;
+  }
+  
+  body.disable-scroll {
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+  }
+
 *::-webkit-scrollbar {
     width: 0.5em;
 }

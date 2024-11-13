@@ -178,7 +178,7 @@
         });
 
         Array.from(document.getElementById('country').children).map(option=>{
-            console.log(option.attributes.getNamedItem('data-img'));
+            //console.log(option.attributes.getNamedItem('data-img'));
             option.setAttribute("data-img", `https://flagcdn.com/48x36/${option.value.toLowerCase()}.png` )
         })
 
@@ -189,6 +189,19 @@
         minimumResultsForSearch: -1  // Hides the search box
     });
 
+    const url = `https://freeipapi.com/api/json`; // get current request's ip info
+
+    fetch(url).then(function(response) {
+    return response.json();
+    }).then(function(data) {
+    console.log(data);
+    // $('#country').select2();
+    // Set the default value
+    $('#country').val(data.countryCode).trigger('change');
+    }).catch(function(err) {
+    console.log('Fetch Error :-S', err);
+    });
+    
     function formatCountry(option) {
         if (!option.id) {
             return option.text;
